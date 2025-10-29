@@ -132,7 +132,7 @@ def init_database():
 class POSApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Smart POS Billing System")
+        self.root.title("Smart Billing System")
         self.root.geometry("1200x650")
         self.root.config(bg="#E9E9E9")
 
